@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício CSS - Simplificado</title>
+    <style>
+        /* 1. Todos os <p> com Arial */
+        p { font-family: Arial, sans-serif; }
+        
+        /* 2. Título principal azul */
+        h1 { color: blue; }
+        
+        /* 3. Classe destaque com fundo amarelo */
+        .destaque { background-color: yellow; }
+        
+        /* 4. Item 2 em vermelho */
+        li:nth-child(2) { color: red; }
+        
+        /* 6. Efeito Hover no botão */
+        button:hover { background-color: #ccc; }
+    </style>
+</head>
+<body>
+
+    <h1>Título Principal (fique azul porcaria!)</h1>
+
+    <p>Este é um parágrafo comum.</p>
+    <p class="destaque">Este parágrafo tem a classe destaque (background amarelo).</p>
+
+    <div class="container">
+        <div>
+            <p>Eu sou um parágrafo dentro do container (agora sem cor especial).</p>
+            <div>
+                <p>Eu estou em uma div profunda.</p>
+            </div>
+        </div>
+    </div>
+
+    <ul>
+        <li>Item 1 (Normal)</li>
+        <li>Item 2 (Vermelho)</li>
+        <li>Item 3 (Normal)</li>
+    </ul>
+
+
+    
+    <form>
+        <label>Login:</label>
+        <input type="text" placeholder="Nome de usuário">
+        <br><br>
+        <label>Senha:</label>
+        <input type="password" placeholder="Sua senha (agora sem borda azul)">
+        <br><br>
+        <button type="button">"Passe" o mouse aqui!</button>
+    </form>
+
+</body>
+</html>

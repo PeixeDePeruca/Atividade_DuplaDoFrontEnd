@@ -1,0 +1,24 @@
+/* todos os <p> com fonte Arial padrãozona */
+p {
+    font-family: Arial, sans-serif;
+}
+
+/*título principal azul */
+h1 {
+    color: blue;
+}
+
+/*destacar com fundo amarelo a classe .destaque */
+.destaque {
+    background-color: yellow;
+}
+
+/* Deixa apenas o Item 2 vermelho! */
+li:nth-child(2) {
+    color: red;
+}
+
+/* Mudar cor do hover */
+button:hover {
+    background-color: lightgray;
+}
